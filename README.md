@@ -61,15 +61,20 @@ This algorithm significantly reduces the number of multiplications needed compar
 
 Client Site:
 
+Using a big array of integer as hash table: give an index then return a different number of integer.
+
 <img width="769" alt="Screen Shot 2024-04-26 at 10 45 38 AM" src="https://github.com/James-Z-Zhang00/FTP_Client_N_Server/assets/144994336/104f586f-7f50-4482-acb4-b5c6e1e51129">
-<img width="627" alt="Screen Shot 2024-04-26 at 11 01 00 AM" src="https://github.com/James-Z-Zhang00/FTP_Client_N_Server/assets/144994336/a5b7bbba-8cc8-4fd6-b402-674548a7621e">
-<img width="829" alt="Screen Shot 2024-04-26 at 11 00 54 AM" src="https://github.com/James-Z-Zhang00/FTP_Client_N_Server/assets/144994336/a6757551-d927-46f9-b36a-d3a4d46c1472">
-<img width="1276" alt="Screen Shot 2024-04-26 at 11 00 34 AM" src="https://github.com/James-Z-Zhang00/FTP_Client_N_Server/assets/144994336/3d5e59c1-cea4-4f30-a10e-a846858070bd">
+
+
+
 <img width="1056" alt="Screen Shot 2024-04-26 at 10 48 42 AM" src="https://github.com/James-Z-Zhang00/FTP_Client_N_Server/assets/144994336/ab159519-1de5-4d56-908f-7a55ec0af96b">
 <img width="1424" alt="Screen Shot 2024-04-26 at 10 48 18 AM" src="https://github.com/James-Z-Zhang00/FTP_Client_N_Server/assets/144994336/5ebfeab7-6f04-4fe7-84f0-25f1fe48dc2f">
 
 Server Site:
 
+<img width="627" alt="Screen Shot 2024-04-26 at 11 01 00 AM" src="https://github.com/James-Z-Zhang00/FTP_Client_N_Server/assets/144994336/a5b7bbba-8cc8-4fd6-b402-674548a7621e">
+<img width="829" alt="Screen Shot 2024-04-26 at 11 00 54 AM" src="https://github.com/James-Z-Zhang00/FTP_Client_N_Server/assets/144994336/a6757551-d927-46f9-b36a-d3a4d46c1472">
+<img width="1276" alt="Screen Shot 2024-04-26 at 11 00 34 AM" src="https://github.com/James-Z-Zhang00/FTP_Client_N_Server/assets/144994336/3d5e59c1-cea4-4f30-a10e-a846858070bd">
 
 
 
