@@ -84,7 +84,7 @@ Make required values for decryption:
 
 <img width="627" alt="Screen Shot 2024-04-26 at 11 01 00 AM" src="https://github.com/James-Z-Zhang00/FTP_Client_N_Server/assets/144994336/a5b7bbba-8cc8-4fd6-b402-674548a7621e">
 
-The Greatest Common Divisor and big prime number functions:
+The Greatest Common Divisor, big prime number and other associative attributes generation functions:
 
 <img width="829" alt="Screen Shot 2024-04-26 at 11 00 54 AM" src="https://github.com/James-Z-Zhang00/FTP_Client_N_Server/assets/144994336/a6757551-d927-46f9-b36a-d3a4d46c1472">
 
