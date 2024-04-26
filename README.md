@@ -1,4 +1,4 @@
-# FTP_Client_N_Server
+# Secure_Client_N_Server
 
 FTP: File Transfer Protocol
 
