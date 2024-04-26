@@ -61,13 +61,20 @@ This algorithm significantly reduces the number of multiplications needed compar
 
 Client Site:
 
-Using a big array of integer as hash table: give an index then return a different number of integer.
+Using a big array of integer as hash table: give an index then return a different number of integer:
 
 <img width="769" alt="Screen Shot 2024-04-26 at 10 45 38 AM" src="https://github.com/James-Z-Zhang00/FTP_Client_N_Server/assets/144994336/104f586f-7f50-4482-acb4-b5c6e1e51129">
 
-
+Repeat Square algorithm implementation:
 
 <img width="1056" alt="Screen Shot 2024-04-26 at 10 48 42 AM" src="https://github.com/James-Z-Zhang00/FTP_Client_N_Server/assets/144994336/ab159519-1de5-4d56-908f-7a55ec0af96b">
+
+Encrypring process, using a for-loop to iterate through the input buffer:
+   * Get ascii value of the char
+   * Applying the binary XOR value to the ascii value and pre-assigned temp_XOR value, use the result as the position number for hash table
+   * Get hashed value
+   * Using RSA algorithm to get encrypted value and send to the server
+
 <img width="1424" alt="Screen Shot 2024-04-26 at 10 48 18 AM" src="https://github.com/James-Z-Zhang00/FTP_Client_N_Server/assets/144994336/5ebfeab7-6f04-4fe7-84f0-25f1fe48dc2f">
 
 Server Site:
