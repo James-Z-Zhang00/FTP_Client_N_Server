@@ -73,14 +73,28 @@ Encrypring process, using a for-loop to iterate through the input buffer:
    * Get ascii value of the char
    * Applying the binary XOR value to the ascii value and pre-assigned temp_XOR value, use the result as the position number for hash table
    * Get hashed value
-   * Using RSA algorithm to get encrypted value and send to the server
+   * Update the temp_XOR value for the next char encryption
+   * Use RSA algorithm to get encrypted value and send to the server
 
 <img width="1424" alt="Screen Shot 2024-04-26 at 10 48 18 AM" src="https://github.com/James-Z-Zhang00/FTP_Client_N_Server/assets/144994336/5ebfeab7-6f04-4fe7-84f0-25f1fe48dc2f">
 
 Server Site:
 
+Make required values for decryption:
+
 <img width="627" alt="Screen Shot 2024-04-26 at 11 01 00 AM" src="https://github.com/James-Z-Zhang00/FTP_Client_N_Server/assets/144994336/a5b7bbba-8cc8-4fd6-b402-674548a7621e">
+
+The Greatest Common Divisor and big prime number functions:
+
 <img width="829" alt="Screen Shot 2024-04-26 at 11 00 54 AM" src="https://github.com/James-Z-Zhang00/FTP_Client_N_Server/assets/144994336/a6757551-d927-46f9-b36a-d3a4d46c1472">
+
+Decrypting process:
+   * Use RSA algorithm again for decrypting the first layer
+   * Substitute the value into hash table to get de-hashed value
+   * Apply de-hashed value to temp_XOR with binary XOR operation to get the original ascii value
+   * Convert ascii value to char to get the actual message
+   * Update the temp_XOR value for the next char decryption
+
 <img width="1276" alt="Screen Shot 2024-04-26 at 11 00 34 AM" src="https://github.com/James-Z-Zhang00/FTP_Client_N_Server/assets/144994336/3d5e59c1-cea4-4f30-a10e-a846858070bd">
 
 
